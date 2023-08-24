@@ -1,0 +1,27 @@
+{
+  "name": "lotus-test",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "git@github.com:cerc-io/lotus-test.git",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "mocha src/**/*.test.ts"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@openzeppelin/contracts": "4.9.3",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.5.4",
+    "chai": "^4.3.8",
+    "dotenv": "^16.3.1",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "hardhat": "^2.17.1"
+  }
+}
